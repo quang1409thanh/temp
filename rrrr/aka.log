@@ -1,0 +1,914 @@
+2024-04-21 15:06:25 DEBUG BaseController:365 - [JavaFX Application Thread] [JavaFX Application Thread] Build the environment
+2024-04-21 15:06:25 DEBUG MenuBarController:1671 - [JavaFX Application Thread] [JavaFX Application Thread] Refresh menu bar
+2024-04-21 15:06:25 DEBUG MenuBarController:1678 - [JavaFX Application Thread] [JavaFX Application Thread] is active multi selection = false
+2024-04-21 15:06:26 INFO  DependencyGraphBuilder:45 - [Thread-4] [Thread-4] Start building dependency graph from chosen UUTs and SBFs
+2024-04-21 15:06:26 INFO  DependencyGraphBuilder:70 - [Thread-4] [Thread-4] Find include headers in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp
+2024-04-21 15:06:26 INFO  DependencyGraphBuilder:109 - [Thread-4] [Thread-4] Finish building dependency graph in 336 ms
+2024-04-21 15:06:26 DEBUG CompileProjectTask:165 - [Thread-4] [Thread-4] Compiling /home/thanhyk14/Desktop/aka414/srrc/uu.cpp
+2024-04-21 15:06:26 DEBUG Compiler:104 - [Thread-4] [Thread-4] Compilation of ./srrc/uu.cpp: g++ -c -std=c++14 -w "./srrc/uu.cpp" -o"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp.out"
+2024-04-21 15:06:26 DEBUG CompileProjectTask:187 - [Thread-4] [Thread-4] Linking source code file to create an executable file
+2024-04-21 15:06:26 DEBUG CompileProjectTask:213 - [Thread-4] [Thread-4] Linking command: g++ -std=c++14 -w "./aka-working-space/rrrr/instruments/uu.akaignore.cpp.out" -o"./srrc/program.exe"
+2024-04-21 15:06:30 DEBUG ProjectTreeExpandTask:160 - [Thread-5] [Thread-5] Start expanding the initial tree down to method level
+2024-04-21 15:06:30 DEBUG TypedefAndAliasResolver:94 - [Thread-5] [Thread-5] Found 0 typedefs and aliases
+2024-04-21 15:06:30 INFO  TypedefAndAliasResolver:114 - [Thread-5] [Thread-5] Loading typedefs and aliases costs 0ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Expand project tree up to method level
+2024-04-21 15:06:30 DEBUG ProjectParser:277 - [Thread-5] [Thread-5] Get project translation unit
+2024-04-21 15:06:30 DEBUG ProjectParser:294 - [pool-6-thread-3] [pool-6-thread-3] Expand element ID 633100627 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 DEBUG ProjectParser:294 - [pool-6-thread-2] [pool-6-thread-2] Expand element ID 642151495 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 DEBUG ProjectParser:294 - [pool-6-thread-1] [pool-6-thread-1] Expand element ID 1360347438 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 INFO  SourcecodeFileParser:68 - [pool-6-thread-2] [pool-6-thread-2] Traversing AST of uu.cpp
+2024-04-21 15:06:30 INFO  SourcecodeFileParser:68 - [pool-6-thread-1] [pool-6-thread-1] Traversing AST of uu.cpp
+2024-04-21 15:06:30 INFO  SourcecodeFileParser:68 - [pool-6-thread-3] [pool-6-thread-3] Traversing AST of uu.cpp
+2024-04-21 15:06:30 DEBUG ProjectParser:296 - [pool-6-thread-2] [pool-6-thread-2] Finish expanding 642151495 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 DEBUG ProjectParser:294 - [pool-6-thread-2] [pool-6-thread-2] Expand element ID 1826689050 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 INFO  SourcecodeFileParser:68 - [pool-6-thread-2] [pool-6-thread-2] Traversing AST of uu.cpp
+2024-04-21 15:06:30 DEBUG ProjectParser:296 - [pool-6-thread-1] [pool-6-thread-1] Finish expanding 1360347438 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 DEBUG ProjectParser:296 - [pool-6-thread-2] [pool-6-thread-2] Finish expanding 1826689050 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 DEBUG ProjectParser:296 - [pool-6-thread-3] [pool-6-thread-3] Finish expanding 633100627 of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp to method level
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish expanding in 78 ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate dependency from cpp to header
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating dependency in 0 ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Merge namespaces
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish merging in 3 ms
+2024-04-21 15:06:30 INFO  SQLiteInstance:33 - [Thread-5] [Thread-5] Connection to SQLite has been established.
+2024-04-21 15:06:30 INFO  ProjectNodesStorage:38 - [Thread-5] [Thread-5] Connect to database AKA_DB_srrc.db successfully in 97 ms
+2024-04-21 15:06:30 DEBUG ProjectNodesStorage:95 - [Thread-5] [Thread-5] Create type table
+2024-04-21 15:06:30 DEBUG ProjectNodesStorage:97 - [Thread-5] [Thread-5] Create sourcecode table
+2024-04-21 15:06:30 DEBUG ProjectNodesStorage:99 - [Thread-5] [Thread-5] Create function table
+2024-04-21 15:06:30 DEBUG ProjectNodesStorage:101 - [Thread-5] [Thread-5] Create external variable table
+2024-04-21 15:06:30 DEBUG ProjectNodesStorage:41 - [Thread-5] [Thread-5] Start inserting data into database
+2024-04-21 15:06:30 INFO  ProjectNodesStorage:55 - [Thread-5] [Thread-5] Finish inserting types in 13 ms
+2024-04-21 15:06:30 INFO  ProjectNodesStorage:68 - [Thread-5] [Thread-5] Finish inserting functions in 15 ms
+2024-04-21 15:06:30 INFO  ProjectNodesStorage:77 - [Thread-5] [Thread-5] Finish inserting sourcecode files in 4 ms
+2024-04-21 15:06:30 INFO  ProjectNodesStorage:90 - [Thread-5] [Thread-5] Finish inserting external variables in 0 ms
+2024-04-21 15:06:30 DEBUG ProjectNodesStorage:91 - [Thread-5] [Thread-5] Finish inserting data into database
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Find relations between prototypes and definitions
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish finding in 7 ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate extended dependency
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating in 2 ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Reconstruct parent
+2024-04-21 15:06:30 INFO  SQLiteInstance:137 - [pool-6-thread-2] [pool-6-thread-2] Found 1 rows in table type in storage for BtaTest
+2024-04-21 15:06:30 DEBUG VariableSearchingSpace:181 - [pool-6-thread-2] [pool-6-thread-2] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:30 DEBUG VariableSearchingSpace:191 - [pool-6-thread-2] [pool-6-thread-2] Level 2: Get the source code file
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish reconstructing in 11 ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate function call dependency
+2024-04-21 15:06:30 DEBUG FunctionCallDependencyGeneration:44 - [pool-6-thread-1] [pool-6-thread-1] Start dependency generation for function call setCurrentListId(A_t)
+2024-04-21 15:06:30 DEBUG FunctionCallDependencyGeneration:44 - [pool-6-thread-2] [pool-6-thread-2] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:30 DEBUG FunctionCallDependencyGeneration:44 - [pool-6-thread-3] [pool-6-thread-3] Start dependency generation for function call getCurrentListId()
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating in 3 ms
+2024-04-21 15:06:30 DEBUG TypedefAndAliasResolver:94 - [Thread-5] [Thread-5] Found 1 typedefs and aliases
+2024-04-21 15:06:30 INFO  TypedefAndAliasResolver:114 - [Thread-5] [Thread-5] Loading typedefs and aliases costs 0ms
+2024-04-21 15:06:30 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Handle undefined symbols and references
+2024-04-21 15:06:30 INFO  Compiler:340 - [Thread-5] [Thread-5] Compiling /home/thanhyk14/Desktop/aka414/srrc/uu.cpp gave this result: 
+
+2024-04-21 15:06:30 INFO  Compiler:344 - [Thread-5] [Thread-5] List of undefined symbols: 
+ 
+
+2024-04-21 15:06:30 INFO  SQLiteInstance:137 - [pool-6-thread-2] [pool-6-thread-2] Found 4 rows in table function in storage for **
+2024-04-21 15:06:30 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish handling in 85 ms
+2024-04-21 15:06:30 DEBUG ProjectTreeExpandTask:170 - [Thread-5] [Thread-5] Finish expanding the initial tree down to method level
+2024-04-21 15:06:30 DEBUG ProjectTreeExpandTask:172 - [Thread-5] [Thread-5] Load stub library from file
+2024-04-21 15:06:30 DEBUG ProjectParser:83 - [Thread-5] [Thread-5] Ignore folders: []
+2024-04-21 15:06:30 DEBUG ProjectParser:85 - [Thread-5] [Thread-5] Loading the project /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/stubs/libraries
+2024-04-21 15:06:30 DEBUG ProjectLoader:124 - [Thread-5] [Thread-5] Loading /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/stubs/libraries
+2024-04-21 15:06:30 DEBUG ProjectParser:87 - [Thread-5] [Thread-5] Loaded the project /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/stubs/libraries successfully
+2024-04-21 15:06:30 DEBUG TypedefAndAliasResolver:94 - [Thread-5] [Thread-5] Found 1 typedefs and aliases
+2024-04-21 15:06:31 INFO  TypedefAndAliasResolver:114 - [Thread-5] [Thread-5] Loading typedefs and aliases costs 0ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Expand project tree up to method level
+2024-04-21 15:06:31 DEBUG ProjectParser:277 - [Thread-5] [Thread-5] Get project translation unit
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish expanding in 11 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate dependency from cpp to header
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating dependency in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Merge namespaces
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish merging in 0 ms
+2024-04-21 15:06:31 INFO  SQLiteInstance:33 - [Thread-5] [Thread-5] Connection to SQLite has been established.
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:38 - [Thread-5] [Thread-5] Connect to database AKA_DB_libraries.db successfully in 2 ms
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:95 - [Thread-5] [Thread-5] Create type table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:97 - [Thread-5] [Thread-5] Create sourcecode table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:99 - [Thread-5] [Thread-5] Create function table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:101 - [Thread-5] [Thread-5] Create external variable table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:41 - [Thread-5] [Thread-5] Start inserting data into database
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:55 - [Thread-5] [Thread-5] Finish inserting types in 0 ms
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:68 - [Thread-5] [Thread-5] Finish inserting functions in 0 ms
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:77 - [Thread-5] [Thread-5] Finish inserting sourcecode files in 0 ms
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:90 - [Thread-5] [Thread-5] Finish inserting external variables in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:91 - [Thread-5] [Thread-5] Finish inserting data into database
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Find relations between prototypes and definitions
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish finding in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate extended dependency
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Reconstruct parent
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish reconstructing in 1 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate function call dependency
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating in 0 ms
+2024-04-21 15:06:31 DEBUG TypedefAndAliasResolver:94 - [Thread-5] [Thread-5] Found 1 typedefs and aliases
+2024-04-21 15:06:31 INFO  TypedefAndAliasResolver:114 - [Thread-5] [Thread-5] Loading typedefs and aliases costs 0ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Handle undefined symbols and references
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish handling in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectTreeExpandTask:177 - [Thread-5] [Thread-5] Load data user code physical tree
+2024-04-21 15:06:31 DEBUG ProjectParser:83 - [Thread-5] [Thread-5] Ignore folders: []
+2024-04-21 15:06:31 DEBUG ProjectParser:85 - [Thread-5] [Thread-5] Loading the project /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/user_code/environment
+2024-04-21 15:06:31 DEBUG ProjectLoader:124 - [Thread-5] [Thread-5] Loading /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/user_code/environment
+2024-04-21 15:06:31 DEBUG ProjectParser:87 - [Thread-5] [Thread-5] Loaded the project /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/user_code/environment successfully
+2024-04-21 15:06:31 DEBUG TypedefAndAliasResolver:94 - [Thread-5] [Thread-5] Found 1 typedefs and aliases
+2024-04-21 15:06:31 INFO  TypedefAndAliasResolver:114 - [Thread-5] [Thread-5] Loading typedefs and aliases costs 1ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Expand project tree up to method level
+2024-04-21 15:06:31 DEBUG ProjectParser:277 - [Thread-5] [Thread-5] Get project translation unit
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish expanding in 27 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate dependency from cpp to header
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating dependency in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Merge namespaces
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish merging in 1 ms
+2024-04-21 15:06:31 INFO  SQLiteInstance:33 - [Thread-5] [Thread-5] Connection to SQLite has been established.
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:38 - [Thread-5] [Thread-5] Connect to database AKA_DB_environment.db successfully in 2 ms
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:95 - [Thread-5] [Thread-5] Create type table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:97 - [Thread-5] [Thread-5] Create sourcecode table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:99 - [Thread-5] [Thread-5] Create function table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:101 - [Thread-5] [Thread-5] Create external variable table
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:41 - [Thread-5] [Thread-5] Start inserting data into database
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:55 - [Thread-5] [Thread-5] Finish inserting types in 0 ms
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:68 - [Thread-5] [Thread-5] Finish inserting functions in 0 ms
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:77 - [Thread-5] [Thread-5] Finish inserting sourcecode files in 0 ms
+2024-04-21 15:06:31 INFO  ProjectNodesStorage:90 - [Thread-5] [Thread-5] Finish inserting external variables in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectNodesStorage:91 - [Thread-5] [Thread-5] Finish inserting data into database
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Find relations between prototypes and definitions
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish finding in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Generate function call dependency
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish generating in 0 ms
+2024-04-21 15:06:31 DEBUG TypedefAndAliasResolver:94 - [Thread-5] [Thread-5] Found 1 typedefs and aliases
+2024-04-21 15:06:31 INFO  TypedefAndAliasResolver:114 - [Thread-5] [Thread-5] Loading typedefs and aliases costs 1ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Handle undefined symbols and references
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish handling in 0 ms
+2024-04-21 15:06:31 DEBUG ProjectParser:113 - [Thread-5] [Thread-5] Start reconstruct class node
+2024-04-21 15:06:31 INFO  ProjectParser:119 - [Thread-5] [Thread-5] Finish reconstructing in 4 ms
+2024-04-21 15:06:31 DEBUG WorkspaceCreation:61 - [Thread-5] [Thread-5] Export the physical tree to file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/physical_tree.json
+2024-04-21 15:06:31 INFO  WorkspaceCreation:75 - [Thread-5] [Thread-5] Start exporting the information about every file and dependencies externally
+2024-04-21 15:06:31 DEBUG WorkspaceCreation:87 - [Thread-5] [Thread-5] Dependency of file /home/thanhyk14/Desktop/aka414/srrc/uu.cpp is stored at /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/dependencies//uu.cpp.aka
+2024-04-21 15:06:31 DEBUG BuildNewEnvironmentTask:310 - [Thread-5] [Thread-5] Exporting the environment script to file.
+2024-04-21 15:06:31 DEBUG BuildNewEnvironmentTask:329 - [Thread-5] [Thread-5] The environment has been exported. Path = /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.env
+2024-04-21 15:06:31 DEBUG BuildNewEnvironmentTask:199 - [Thread-5] [Thread-5] Exporting test script to file
+2024-04-21 15:06:31 DEBUG Environment:257 - [Thread-5] [Thread-5] Analyzing /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.tst ...
+2024-04-21 15:06:31 DEBUG Environment:263 - [Thread-5] [Thread-5] Analyzing /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.tst took 0s
+2024-04-21 15:06:31 DEBUG BuildNewEnvironmentTask:280 - [Thread-5] [Thread-5] The test script has been exported. Path = /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.tst
+2024-04-21 15:06:31 INFO  ProjectClone:1052 - [pool-21-thread-1] [pool-21-thread-1] Cloning project...
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-23-thread-4] [pool-23-thread-4] [4/5] Clone & instrument getCurrentListId()
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-23-thread-2] [pool-23-thread-2] [2/5] Clone & instrument BtaTest
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-23-thread-3] [pool-23-thread-3] [3/5] Clone & instrument setCurrentListId(A_t)
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-23-thread-5] [pool-23-thread-5] [5/5] Clone & instrument BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-23-thread-1] [pool-23-thread-1] [1/5] Clone & instrument UtcTe
+2024-04-21 15:06:31 DEBUG StubManager:389 - [pool-23-thread-3] [pool-23-thread-3] Initialize stub code for setCurrentListId(A_t) in uu.cpp to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/stubs/uu.cpp.setCurrentListId.134.stub successfully
+2024-04-21 15:06:31 DEBUG StubManager:389 - [pool-23-thread-4] [pool-23-thread-4] Initialize stub code for getCurrentListId() in uu.cpp to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/stubs/uu.cpp.getCurrentListId.211.stub successfully
+2024-04-21 15:06:31 DEBUG ProjectClone:163 - [pool-22-thread-1] [pool-22-thread-1] Generate instrument file of uu.cpp successfully
+2024-04-21 15:06:31 DEBUG ProjectClone:140 - [pool-21-thread-1] [pool-21-thread-1] Done cloning all source code files!
+2024-04-21 15:06:31 INFO  ProjectClone:1054 - [pool-21-thread-1] [pool-21-thread-1] Cloning project done. Start cloning for lcov...
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-25-thread-3] [pool-25-thread-3] [3/5] Clone & instrument setCurrentListId(A_t)
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-25-thread-1] [pool-25-thread-1] [1/5] Clone & instrument UtcTe
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-25-thread-5] [pool-25-thread-5] [5/5] Clone & instrument BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-25-thread-2] [pool-25-thread-2] [2/5] Clone & instrument BtaTest
+2024-04-21 15:06:31 DEBUG ProjectClone:438 - [pool-25-thread-4] [pool-25-thread-4] [4/5] Clone & instrument getCurrentListId()
+2024-04-21 15:06:31 DEBUG ProjectClone:163 - [pool-24-thread-1] [pool-24-thread-1] Generate instrument file of uu.cpp successfully
+2024-04-21 15:06:31 DEBUG ProjectClone:140 - [pool-21-thread-1] [pool-21-thread-1] Done cloning all source code files!
+2024-04-21 15:06:31 INFO  ProjectClone:1056 - [pool-21-thread-1] [pool-21-thread-1] Cloning for lcov done.
+2024-04-21 15:06:31 DEBUG BaseController:217 - [JavaFX Application Thread] [JavaFX Application Thread] Reset all states in all windows in environment builder
+2024-04-21 15:06:31 DEBUG Environment:257 - [JavaFX Application Thread] [JavaFX Application Thread] Analyzing /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.tst ...
+2024-04-21 15:06:31 DEBUG Environment:263 - [JavaFX Application Thread] [JavaFX Application Thread] Analyzing /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.tst took 0s
+2024-04-21 15:06:31 DEBUG BaseController:477 - [JavaFX Application Thread] [JavaFX Application Thread] Build the environment successfully in 00:00:00
+2024-04-21 15:06:37 DEBUG TestCasesNavigatorRow:2243 - [JavaFX Application Thread] [JavaFX Application Thread] The function corresponding to the clicked node: /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG TestCasesNavigatorRow:1484 - [JavaFX Application Thread] [JavaFX Application Thread] Create new function config of /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG AbstractFunctionNode:666 - [JavaFX Application Thread] [JavaFX Application Thread] Generate CFG to find static solution
+2024-04-21 15:06:37 DEBUG TypedefAndAliasResolver:94 - [JavaFX Application Thread] [JavaFX Application Thread] Found 1 typedefs and aliases
+2024-04-21 15:06:37 INFO  TypedefAndAliasResolver:114 - [JavaFX Application Thread] [JavaFX Application Thread] Loading typedefs and aliases costs 0ms
+2024-04-21 15:06:37 DEBUG TestCasesNavigatorRow:1498 - [JavaFX Application Thread] [JavaFX Application Thread] Export the config of function /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/function-configs/uu.cpp_BtaTest....BtaTest36.json
+2024-04-21 15:06:37 DEBUG TestCasesNavigatorRow:1505 - [JavaFX Application Thread] [JavaFX Application Thread] Create new thread to run the test data
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 INFO  SQLiteInstance:33 - [pool-27-thread-1] [pool-27-thread-1] Connection to SQLite has been established.
+2024-04-21 15:06:37 INFO  SQLiteInstance:137 - [pool-27-thread-1] [pool-27-thread-1] Found 0 rows in table external_variable in storage for list_id
+2024-04-21 15:06:37 DEBUG GenerateTestdataTask:112 - [pool-27-thread-1] [pool-27-thread-1] Concolic CFDS test data generation
+2024-04-21 15:06:37 DEBUG GenerateTestdataTask:118 - [pool-27-thread-1] [pool-27-thread-1] Generate test data automatically for function BtaTest::BtaTest
+2024-04-21 15:06:37 DEBUG SymbolicExecutionTestdataGeneration:133 - [pool-27-thread-1] [pool-27-thread-1] Generating test data for function BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG SymbolicExecutionTestdataGeneration:134 - [pool-27-thread-1] [pool-27-thread-1] Automated test data generation strategy: Directed-Dijkstra
+2024-04-21 15:06:37 DEBUG SymbolicExecutionTestdataGeneration:144 - [pool-27-thread-1] [pool-27-thread-1] Maximum number of iterations = 10
+2024-04-21 15:06:37 DEBUG ConcolicAutomatedTestdataGeneration:94 - [pool-27-thread-1] [pool-27-thread-1] Random test data generation
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:45 - [pool-27-thread-1] [pool-27-thread-1] Generating test data for function BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:46 - [pool-27-thread-1] [pool-27-thread-1] Automated test data generation strategy: random
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:66 - [pool-27-thread-1] [pool-27-thread-1] Maximum number of iterations = 5
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:122 - [pool-27-thread-1] [pool-27-thread-1] Iteration 1/5
+2024-04-21 15:06:37 DEBUG TestCaseManager:1203 - [pool-27-thread-1] [pool-27-thread-1] Generate name of test case name
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:48 - [pool-27-thread-1] [pool-27-thread-1] Find type dependency for /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)/StatusRegisterInst
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:49 - [pool-27-thread-1] [pool-27-thread-1] Type "UtcTe&"
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:246 - [pool-27-thread-1] [pool-27-thread-1] Perform primitive search with type "UtcTe&"
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:75 - [pool-27-thread-1] [pool-27-thread-1] Is not primitive type. Searching in storage
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:298 - [pool-27-thread-1] [pool-27-thread-1] Perform searching in storage
+2024-04-21 15:06:37 INFO  SQLiteInstance:137 - [pool-27-thread-1] [pool-27-thread-1] Found 1 rows in table type in storage for */UtcTe
+2024-04-21 15:06:37 INFO  CTypeDependencyGeneration:308 - [pool-27-thread-1] [pool-27-thread-1] Found 1 candidate nodes in storage for /UtcTe
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:132 - [pool-27-thread-1] [pool-27-thread-1] The definition of variable is defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/UtcTe
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:48 - [pool-27-thread-1] [pool-27-thread-1] Find type dependency for /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest/list_id
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:49 - [pool-27-thread-1] [pool-27-thread-1] Type "A"
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:246 - [pool-27-thread-1] [pool-27-thread-1] Perform primitive search with type "A"
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:75 - [pool-27-thread-1] [pool-27-thread-1] Is not primitive type. Searching in storage
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:298 - [pool-27-thread-1] [pool-27-thread-1] Perform searching in storage
+2024-04-21 15:06:37 INFO  SQLiteInstance:137 - [pool-27-thread-1] [pool-27-thread-1] Found 1 rows in table type in storage for */A
+2024-04-21 15:06:37 INFO  CTypeDependencyGeneration:308 - [pool-27-thread-1] [pool-27-thread-1] Found 1 candidate nodes in storage for /A
+2024-04-21 15:06:37 DEBUG CTypeDependencyGeneration:132 - [pool-27-thread-1] [pool-27-thread-1] The definition of variable is defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/A
+2024-04-21 15:06:37 DEBUG TestCaseManager:128 - [pool-27-thread-1] [pool-27-thread-1] initParameterExpectedOuputs
+2024-04-21 15:06:37 DEBUG TestCaseManager:131 - [pool-27-thread-1] [pool-27-thread-1] initGlobalInputExpOutputMap
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] ::BtaTest: isStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type ::BtaTest : handleStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest_StatusRegisterInst
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] UtcTe: isStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type UtcTe : handleStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/UtcTe
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:925 - [pool-27-thread-1] [pool-27-thread-1] There are 1 candidate constructors
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:931 - [pool-27-thread-1] [pool-27-thread-1] Choose constructor UtcTe()
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest", class = ClassDataNode
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest::BtaTest(UtcTe&)", class = SubClassDataNode
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "BtaTest::BtaTest(UtcTe&)"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "BtaTest::BtaTest(UtcTe&)"; value = "BtaTest::BtaTest(UtcTe&)", class = ConstructorDataNode
+2024-04-21 15:06:37 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe", class = ClassDataNode
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe()", class = SubClassDataNode
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "UtcTe()"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "UtcTe()"; value = "UtcTe()", class = ConstructorDataNode
+2024-04-21 15:06:37 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "list_id"
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForInstance = [nameUsedInExpansion = "AKA_INSTANCE___BtaTest"; nameUsedInCode = "AKA_INSTANCE___BtaTest", value = "BtaTest::BtaTest(UtcTe&)"
+, nameUsedInExpansion = "AKA_INSTANCE___BtaTest_StatusRegisterInst"; nameUsedInCode = "AKA_INSTANCE___BtaTest_StatusRegisterInst", value = "UtcTe()"
+]
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:993 - [pool-27-thread-1] [pool-27-thread-1] Num of global data nodes = []
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:180 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForGlobalVariables = []
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:944 - [pool-27-thread-1] [pool-27-thread-1] Num of stub subprograms = 0
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:192 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForStubs = null
+2024-04-21 15:06:37 DEBUG TestCase:341 - [pool-27-thread-1] [pool-27-thread-1] Append the name of testcase BtaTest_BtaTest_UtcTe_random_0 to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr.tst
+2024-04-21 15:06:37 DEBUG RandomAutomatedTestdataGeneration:122 - [pool-27-thread-1] [pool-27-thread-1] Iteration 2/5
+2024-04-21 15:06:37 DEBUG TestCaseManager:1203 - [pool-27-thread-1] [pool-27-thread-1] Generate name of test case name
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG TestCaseManager:128 - [pool-27-thread-1] [pool-27-thread-1] initParameterExpectedOuputs
+2024-04-21 15:06:37 DEBUG TestCaseManager:131 - [pool-27-thread-1] [pool-27-thread-1] initGlobalInputExpOutputMap
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:37 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:37 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:37 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:37 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] ::BtaTest: isStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type ::BtaTest : handleStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest_StatusRegisterInst
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] UtcTe: isStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type UtcTe : handleStructureSimple
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/UtcTe
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:925 - [pool-27-thread-1] [pool-27-thread-1] There are 1 candidate constructors
+2024-04-21 15:06:37 DEBUG RandomInputGeneration:931 - [pool-27-thread-1] [pool-27-thread-1] Choose constructor UtcTe()
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest", class = ClassDataNode
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:37 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:37 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest::BtaTest(UtcTe&)", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "BtaTest::BtaTest(UtcTe&)"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "BtaTest::BtaTest(UtcTe&)"; value = "BtaTest::BtaTest(UtcTe&)", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe()", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "UtcTe()"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "UtcTe()"; value = "UtcTe()", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "list_id"
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForInstance = [nameUsedInExpansion = "AKA_INSTANCE___BtaTest"; nameUsedInCode = "AKA_INSTANCE___BtaTest", value = "BtaTest::BtaTest(UtcTe&)"
+, nameUsedInExpansion = "AKA_INSTANCE___BtaTest_StatusRegisterInst"; nameUsedInCode = "AKA_INSTANCE___BtaTest_StatusRegisterInst", value = "UtcTe()"
+]
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:993 - [pool-27-thread-1] [pool-27-thread-1] Num of global data nodes = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:180 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForGlobalVariables = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:183 - [pool-27-thread-1] [pool-27-thread-1] Duplicate test cases. Ignore.
+2024-04-21 15:06:38 DEBUG AbstractTestCase:116 - [pool-27-thread-1] [pool-27-thread-1] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_random_1 before continuing
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:122 - [pool-27-thread-1] [pool-27-thread-1] Iteration 3/5
+2024-04-21 15:06:38 DEBUG TestCaseManager:1203 - [pool-27-thread-1] [pool-27-thread-1] Generate name of test case name
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG TestCaseManager:128 - [pool-27-thread-1] [pool-27-thread-1] initParameterExpectedOuputs
+2024-04-21 15:06:38 DEBUG TestCaseManager:131 - [pool-27-thread-1] [pool-27-thread-1] initGlobalInputExpOutputMap
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] ::BtaTest: isStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type ::BtaTest : handleStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest_StatusRegisterInst
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] UtcTe: isStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type UtcTe : handleStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/UtcTe
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:925 - [pool-27-thread-1] [pool-27-thread-1] There are 1 candidate constructors
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:931 - [pool-27-thread-1] [pool-27-thread-1] Choose constructor UtcTe()
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest::BtaTest(UtcTe&)", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "BtaTest::BtaTest(UtcTe&)"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "BtaTest::BtaTest(UtcTe&)"; value = "BtaTest::BtaTest(UtcTe&)", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe()", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "UtcTe()"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "UtcTe()"; value = "UtcTe()", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "list_id"
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForInstance = [nameUsedInExpansion = "AKA_INSTANCE___BtaTest"; nameUsedInCode = "AKA_INSTANCE___BtaTest", value = "BtaTest::BtaTest(UtcTe&)"
+, nameUsedInExpansion = "AKA_INSTANCE___BtaTest_StatusRegisterInst"; nameUsedInCode = "AKA_INSTANCE___BtaTest_StatusRegisterInst", value = "UtcTe()"
+]
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:993 - [pool-27-thread-1] [pool-27-thread-1] Num of global data nodes = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:180 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForGlobalVariables = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:183 - [pool-27-thread-1] [pool-27-thread-1] Duplicate test cases. Ignore.
+2024-04-21 15:06:38 DEBUG AbstractTestCase:116 - [pool-27-thread-1] [pool-27-thread-1] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_random_1 before continuing
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:122 - [pool-27-thread-1] [pool-27-thread-1] Iteration 4/5
+2024-04-21 15:06:38 DEBUG TestCaseManager:1203 - [pool-27-thread-1] [pool-27-thread-1] Generate name of test case name
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG TestCaseManager:128 - [pool-27-thread-1] [pool-27-thread-1] initParameterExpectedOuputs
+2024-04-21 15:06:38 DEBUG TestCaseManager:131 - [pool-27-thread-1] [pool-27-thread-1] initGlobalInputExpOutputMap
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] ::BtaTest: isStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type ::BtaTest : handleStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest_StatusRegisterInst
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] UtcTe: isStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type UtcTe : handleStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/UtcTe
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:925 - [pool-27-thread-1] [pool-27-thread-1] There are 1 candidate constructors
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:931 - [pool-27-thread-1] [pool-27-thread-1] Choose constructor UtcTe()
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest::BtaTest(UtcTe&)", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "BtaTest::BtaTest(UtcTe&)"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "BtaTest::BtaTest(UtcTe&)"; value = "BtaTest::BtaTest(UtcTe&)", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe()", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "UtcTe()"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "UtcTe()"; value = "UtcTe()", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "list_id"
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForInstance = [nameUsedInExpansion = "AKA_INSTANCE___BtaTest"; nameUsedInCode = "AKA_INSTANCE___BtaTest", value = "BtaTest::BtaTest(UtcTe&)"
+, nameUsedInExpansion = "AKA_INSTANCE___BtaTest_StatusRegisterInst"; nameUsedInCode = "AKA_INSTANCE___BtaTest_StatusRegisterInst", value = "UtcTe()"
+]
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:993 - [pool-27-thread-1] [pool-27-thread-1] Num of global data nodes = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:180 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForGlobalVariables = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:183 - [pool-27-thread-1] [pool-27-thread-1] Duplicate test cases. Ignore.
+2024-04-21 15:06:38 DEBUG AbstractTestCase:116 - [pool-27-thread-1] [pool-27-thread-1] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_random_1 before continuing
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:122 - [pool-27-thread-1] [pool-27-thread-1] Iteration 5/5
+2024-04-21 15:06:38 DEBUG TestCaseManager:1203 - [pool-27-thread-1] [pool-27-thread-1] Generate name of test case name
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG TestCaseManager:128 - [pool-27-thread-1] [pool-27-thread-1] initParameterExpectedOuputs
+2024-04-21 15:06:38 DEBUG TestCaseManager:131 - [pool-27-thread-1] [pool-27-thread-1] initGlobalInputExpOutputMap
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG DataTree:38 - [pool-27-thread-1] [pool-27-thread-1] Generate Data Tree
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:44 - [pool-27-thread-1] [pool-27-thread-1] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:38 DEBUG FunctionCallDependencyGeneration:56 - [pool-27-thread-1] [pool-27-thread-1] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:140 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalVarBranch
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:34 - [pool-27-thread-1] [pool-27-thread-1] generateGlobalSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:37 - [pool-27-thread-1] [pool-27-thread-1] generateUUTSubTree
+2024-04-21 15:06:38 DEBUG FuncDetailTreeGeneration:40 - [pool-27-thread-1] [pool-27-thread-1] generateStubSubTree
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:75 - [pool-27-thread-1] [pool-27-thread-1] Found 1 global variables in unit
+2024-04-21 15:06:38 DEBUG RelatedExternalVariableDetecter:83 - [pool-27-thread-1] [pool-27-thread-1] Found no global variable used in subprogram
+2024-04-21 15:06:38 DEBUG AbstractInitialTreeGen:120 - [pool-27-thread-1] [pool-27-thread-1] generateStaticBranch
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] ::BtaTest: isStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type ::BtaTest : handleStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] Analyze AKA_INSTANCE___BtaTest_StatusRegisterInst
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:316 - [pool-27-thread-1] [pool-27-thread-1] UtcTe: isStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:899 - [pool-27-thread-1] [pool-27-thread-1] type UtcTe : handleStructureSimple
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:911 - [pool-27-thread-1] [pool-27-thread-1] Defined in /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/UtcTe
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:925 - [pool-27-thread-1] [pool-27-thread-1] There are 1 candidate constructors
+2024-04-21 15:06:38 DEBUG RandomInputGeneration:931 - [pool-27-thread-1] [pool-27-thread-1] Choose constructor UtcTe()
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "AKA_INSTANCE___BtaTest"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "AKA_INSTANCE___BtaTest"; value = "BtaTest::BtaTest(UtcTe&)", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "BtaTest::BtaTest(UtcTe&)"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "BtaTest::BtaTest(UtcTe&)"; value = "BtaTest::BtaTest(UtcTe&)", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe", class = ClassDataNode
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:181 - [pool-27-thread-1] [pool-27-thread-1] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:191 - [pool-27-thread-1] [pool-27-thread-1] Level 2: Get the source code file
+2024-04-21 15:06:38 DEBUG VariableSearchingSpace:236 - [pool-27-thread-1] [pool-27-thread-1] Level 3: Get all included files defined by users
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "StatusRegisterInst"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "StatusRegisterInst"; value = "UtcTe()", class = SubClassDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "UtcTe()"
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:549 - [pool-27-thread-1] [pool-27-thread-1] Commit edit for node "UtcTe()"; value = "UtcTe()", class = ConstructorDataNode
+2024-04-21 15:06:38 ERROR InputCellHandler:730 - [pool-27-thread-1] Do not support to enter data for class com.dse.testdata.object.ConstructorDataNode
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:470 - [pool-27-thread-1] [pool-27-thread-1] recursiveExpandUutBranch with "list_id"
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:174 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForInstance = [nameUsedInExpansion = "AKA_INSTANCE___BtaTest"; nameUsedInCode = "AKA_INSTANCE___BtaTest", value = "BtaTest::BtaTest(UtcTe&)"
+, nameUsedInExpansion = "AKA_INSTANCE___BtaTest_StatusRegisterInst"; nameUsedInCode = "AKA_INSTANCE___BtaTest_StatusRegisterInst", value = "UtcTe()"
+]
+2024-04-21 15:06:38 DEBUG AbstractAutomatedTestdataGeneration:993 - [pool-27-thread-1] [pool-27-thread-1] Num of global data nodes = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:180 - [pool-27-thread-1] [pool-27-thread-1] randomValuesForGlobalVariables = []
+2024-04-21 15:06:38 DEBUG RandomAutomatedTestdataGeneration:183 - [pool-27-thread-1] [pool-27-thread-1] Duplicate test cases. Ignore.
+2024-04-21 15:06:38 DEBUG AbstractTestCase:116 - [pool-27-thread-1] [pool-27-thread-1] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_random_1 before continuing
+2024-04-21 15:06:38 DEBUG TestcaseExecution:371 - [pool-27-thread-1] [pool-27-thread-1] The test path file of test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_random_0.tp
+2024-04-21 15:06:38 DEBUG TestcaseExecution:378 - [pool-27-thread-1] [pool-27-thread-1] Executable file of test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_random_0.exe
+2024-04-21 15:06:38 DEBUG TestcaseExecution:382 - [pool-27-thread-1] [pool-27-thread-1] Debug executable file of test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/debug_BtaTest_BtaTest_UtcTe_random_0.exe
+2024-04-21 15:06:38 DEBUG TestcaseExecution:386 - [pool-27-thread-1] [pool-27-thread-1] Command file of test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_random_0.json
+2024-04-21 15:06:38 DEBUG TestcaseExecution:390 - [pool-27-thread-1] [pool-27-thread-1] Debug command file of test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/debugger/commands/BtaTest_BtaTest_UtcTe_random_0.json
+2024-04-21 15:06:38 DEBUG TestcaseExecution:394 - [pool-27-thread-1] [pool-27-thread-1] Breakpoint file of test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/debugger/breakpoints/BtaTest_BtaTest_UtcTe_random_0.br.json
+2024-04-21 15:06:38 DEBUG TestcaseExecution:398 - [pool-27-thread-1] [pool-27-thread-1] Path of the test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_random_0.tp
+2024-04-21 15:06:38 DEBUG TestcaseExecution:407 - [pool-27-thread-1] [pool-27-thread-1] Execute Result Path of the test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/execution-results/BtaTest_BtaTest_UtcTe_random_0.trc
+2024-04-21 15:06:38 DEBUG TestcaseExecution:411 - [pool-27-thread-1] [pool-27-thread-1] The source code file containing the test case BtaTest_BtaTest_UtcTe_random_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp
+2024-04-21 15:06:38 DEBUG AbstractTestCase:116 - [pool-27-thread-1] [pool-27-thread-1] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_random_0 before continuing
+2024-04-21 15:06:38 DEBUG TestcaseExecution:53 - [pool-27-thread-1] [pool-27-thread-1] Start generating test driver for the test case /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-cases/BtaTest_BtaTest_UtcTe_random_0.json
+2024-04-21 15:06:38 DEBUG AbstractTestCase:192 - [pool-27-thread-1] [pool-27-thread-1] Export the compilation of test case to file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_random_0.json
+2024-04-21 15:06:38 DEBUG TestcaseExecution:167 - [pool-27-thread-1] [pool-27-thread-1] Create the command file for test case BtaTest_BtaTest_UtcTe_random_0 at /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_random_0.json
+2024-04-21 15:06:38 DEBUG TestcaseExecution:286 - [pool-27-thread-1] [pool-27-thread-1] Add test driver to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp done
+2024-04-21 15:06:38 DEBUG TestcaseExecution:73 - [pool-27-thread-1] [pool-27-thread-1] Compiling source code files
+2024-04-21 15:06:38 DEBUG TestcaseExecution:82 - [pool-27-thread-1] [pool-27-thread-1] Compile test driver:
+Executing g++ -c -std=c++14 -w "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp" -o"./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp.out" -DAKA_TC_BTATEST_BTATEST_UTCTE_RANDOM_0 -I"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments"
+2024-04-21 15:06:39 DEBUG TestcaseExecution:109 - [pool-27-thread-1] [pool-27-thread-1] Re compile all akaignore files
+2024-04-21 15:06:39 DEBUG ProjectClone:1031 - [pool-27-thread-1] [pool-27-thread-1] Compilation of /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp: g++ -c -std=c++14 -w "/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp" -o"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp.out" -I"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments" -DAKA_TC_BTATEST_BTATEST_UTCTE_RANDOM_0 -DASSERT_ENABLE
+2024-04-21 15:06:39 DEBUG TestcaseExecution:116 - [pool-27-thread-1] [pool-27-thread-1] Linking test driver: g++ -std=c++14 -w "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp.out" -o"./aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_random_0.exe"
+2024-04-21 15:06:39 DEBUG TestcaseExecution:78 - [pool-27-thread-1] [pool-27-thread-1] Execute /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_random_0.exe
+2024-04-21 15:06:39 DEBUG TestcaseExecution:83 - [pool-27-thread-1] [pool-27-thread-1] Execute done
+2024-04-21 15:06:39 DEBUG TestcaseExecution:180 - [pool-27-thread-1] [pool-27-thread-1] Finish. We are getting a execution path from hard disk
+2024-04-21 15:06:39 DEBUG TestcaseExecution:221 - [pool-27-thread-1] [pool-27-thread-1] No need for shortening test path because it is not too long
+2024-04-21 15:06:39 DEBUG TestcaseExecution:288 - [pool-27-thread-1] [pool-27-thread-1] Compute coverage given the test path
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:245 - [pool-27-thread-1] [pool-27-thread-1] [1/16] calculate num of visited STATEMENT in UtcTe()
+2024-04-21 15:06:39 DEBUG InstructionComputator:248 - [pool-27-thread-1] [pool-27-thread-1] [2/16] calculate num of visited BRANCH in UtcTe()
+2024-04-21 15:06:39 DEBUG InstructionComputator:251 - [pool-27-thread-1] [pool-27-thread-1] [3/16] calculate num of visited MCDC in UtcTe()
+2024-04-21 15:06:39 DEBUG InstructionComputator:254 - [pool-27-thread-1] [pool-27-thread-1] [4/16] calculate num of visited BASIS_PATH in UtcTe()
+2024-04-21 15:06:39 DEBUG InstructionComputator:245 - [pool-27-thread-1] [pool-27-thread-1] [5/16] calculate num of visited STATEMENT in setCurrentListId(A_t)
+2024-04-21 15:06:39 DEBUG InstructionComputator:248 - [pool-27-thread-1] [pool-27-thread-1] [6/16] calculate num of visited BRANCH in setCurrentListId(A_t)
+2024-04-21 15:06:39 DEBUG InstructionComputator:251 - [pool-27-thread-1] [pool-27-thread-1] [7/16] calculate num of visited MCDC in setCurrentListId(A_t)
+2024-04-21 15:06:39 DEBUG InstructionComputator:254 - [pool-27-thread-1] [pool-27-thread-1] [8/16] calculate num of visited BASIS_PATH in setCurrentListId(A_t)
+2024-04-21 15:06:39 DEBUG InstructionComputator:245 - [pool-27-thread-1] [pool-27-thread-1] [9/16] calculate num of visited STATEMENT in getCurrentListId()
+2024-04-21 15:06:39 DEBUG InstructionComputator:248 - [pool-27-thread-1] [pool-27-thread-1] [10/16] calculate num of visited BRANCH in getCurrentListId()
+2024-04-21 15:06:39 DEBUG InstructionComputator:251 - [pool-27-thread-1] [pool-27-thread-1] [11/16] calculate num of visited MCDC in getCurrentListId()
+2024-04-21 15:06:39 DEBUG InstructionComputator:254 - [pool-27-thread-1] [pool-27-thread-1] [12/16] calculate num of visited BASIS_PATH in getCurrentListId()
+2024-04-21 15:06:39 DEBUG InstructionComputator:245 - [pool-27-thread-1] [pool-27-thread-1] [13/16] calculate num of visited STATEMENT in BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG InstructionComputator:248 - [pool-27-thread-1] [pool-27-thread-1] [14/16] calculate num of visited BRANCH in BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG InstructionComputator:251 - [pool-27-thread-1] [pool-27-thread-1] [15/16] calculate num of visited MCDC in BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG InstructionComputator:254 - [pool-27-thread-1] [pool-27-thread-1] [16/16] calculate num of visited BASIS_PATH in BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 0
+2024-04-21 15:06:39 DEBUG TestcaseExecution:328 - [pool-27-thread-1] [pool-27-thread-1] Done. Offsets of execution test path [length=1] = 50
+2024-04-21 15:06:39 DEBUG TestcaseExecution:267 - [pool-27-thread-1] [pool-27-thread-1] Retrieve the test path file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_random_0.tp successfully.
+2024-04-21 15:06:39 DEBUG TestcaseExecution:269 - [pool-27-thread-1] [pool-27-thread-1] Generate test paths for BtaTest_BtaTest_UtcTe_random_0 sucessfully
+2024-04-21 15:06:39 DEBUG AutoGeneratedTestCaseExecTask:87 - [pool-27-thread-1] [pool-27-thread-1] Save the testcase BtaTest_BtaTest_UtcTe_random_0 to file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-cases/BtaTest_BtaTest_UtcTe_random_0.json
+2024-04-21 15:06:39 DEBUG CoverageManager:82 - [pool-27-thread-1] [pool-27-thread-1] Export coverage of BtaTest_BtaTest_UtcTe_random_0 to external files
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 1
+2024-04-21 15:06:39 DEBUG CoverageManager:82 - [pool-27-thread-1] [pool-27-thread-1] Export coverage of BtaTest_BtaTest_UtcTe_random_0 to external files
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 0
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 1
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 0
+2024-04-21 15:06:39 DEBUG CoverageManager:82 - [pool-27-thread-1] [pool-27-thread-1] Export coverage of BtaTest_BtaTest_UtcTe_random_0 to external files
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 1
+2024-04-21 15:06:39 DEBUG CoverageManager:82 - [pool-27-thread-1] [pool-27-thread-1] Export coverage of BtaTest_BtaTest_UtcTe_random_0 to external files
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [pool-27-thread-1] [pool-27-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [pool-27-thread-1] [pool-27-thread-1] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [pool-27-thread-1] [pool-27-thread-1] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [pool-27-thread-1] [pool-27-thread-1] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [pool-27-thread-1] [pool-27-thread-1] Num of visited instructions = 0
+2024-04-21 15:06:39 DEBUG RandomAutomatedTestdataGeneration:136 - [pool-27-thread-1] [pool-27-thread-1] Done automated test data generation
+2024-04-21 15:06:39 DEBUG TestCaseMinimizer:28 - [pool-27-thread-1] [pool-27-thread-1] Grouping test case by subprogram
+2024-04-21 15:06:39 DEBUG TestCaseMinimizer:60 - [pool-27-thread-1] [pool-27-thread-1] Optimize test cases done: 1 -> 1
+2024-04-21 15:06:39 ERROR TestCaseManager:704 - [pool-27-thread-1] Basic test case BtaTest_BtaTest_UtcTe_random_1 not found.
+2024-04-21 15:06:39 ERROR TestCaseManager:361 - [pool-27-thread-1] Failed to load test case BtaTest_BtaTest_UtcTe_random_1
+2024-04-21 15:06:39 ERROR TestCaseManager:367 - [pool-27-thread-1] basic test case BtaTest_BtaTest_UtcTe_random_1 does not exist.
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [Thread-7] [Thread-7] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [Thread-7] [Thread-7] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [Thread-7] [Thread-7] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [Thread-7] [Thread-7] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [Thread-7] [Thread-7] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [Thread-7] [Thread-7] Num of visited instructions = 1
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [Thread-7] [Thread-7] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [Thread-7] [Thread-7] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [Thread-7] [Thread-7] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [Thread-7] [Thread-7] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [Thread-7] [Thread-7] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [Thread-7] [Thread-7] Num of visited instructions = 0
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [Thread-7] [Thread-7] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [Thread-7] [Thread-7] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [Thread-7] [Thread-7] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [Thread-7] [Thread-7] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [Thread-7] [Thread-7] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [Thread-7] [Thread-7] Num of visited instructions = 1
+2024-04-21 15:06:39 DEBUG InstructionComputator:51 - [Thread-7] [Thread-7] Compute the number of statements/branches and saved in file
+2024-04-21 15:06:39 DEBUG InstructionComputator:78 - [Thread-7] [Thread-7] Compute done. Save to environment
+2024-04-21 15:06:39 DEBUG InstructionComputator:85 - [Thread-7] [Thread-7] Compute done. Save to file
+2024-04-21 15:06:39 DEBUG InstructionComputator:119 - [Thread-7] [Thread-7] Save done.
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:83 - [Thread-7] [Thread-7] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:39 DEBUG AbstractCoverageComputation:145 - [Thread-7] [Thread-7] Num of visited instructions = 0
+2024-04-21 15:06:40 DEBUG TestCaseManager:1203 - [Thread-9] [Thread-9] Generate name of test case name
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:34 - [Thread-9] [Thread-9] generateGlobalSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:37 - [Thread-9] [Thread-9] generateUUTSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:40 - [Thread-9] [Thread-9] generateStubSubTree
+2024-04-21 15:06:40 DEBUG DataTree:38 - [Thread-9] [Thread-9] Generate Data Tree
+2024-04-21 15:06:40 DEBUG FunctionCallDependencyGeneration:44 - [Thread-9] [Thread-9] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:40 DEBUG FunctionCallDependencyGeneration:56 - [Thread-9] [Thread-9] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:40 DEBUG AbstractInitialTreeGen:140 - [Thread-9] [Thread-9] generateGlobalVarBranch
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:34 - [Thread-9] [Thread-9] generateGlobalSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:37 - [Thread-9] [Thread-9] generateUUTSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:40 - [Thread-9] [Thread-9] generateStubSubTree
+2024-04-21 15:06:40 DEBUG RelatedExternalVariableDetecter:75 - [Thread-9] [Thread-9] Found 1 global variables in unit
+2024-04-21 15:06:40 DEBUG RelatedExternalVariableDetecter:83 - [Thread-9] [Thread-9] Found no global variable used in subprogram
+2024-04-21 15:06:40 DEBUG AbstractInitialTreeGen:120 - [Thread-9] [Thread-9] generateStaticBranch
+2024-04-21 15:06:40 DEBUG VariableSearchingSpace:181 - [Thread-9] [Thread-9] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:40 DEBUG VariableSearchingSpace:191 - [Thread-9] [Thread-9] Level 2: Get the source code file
+2024-04-21 15:06:40 DEBUG VariableSearchingSpace:236 - [Thread-9] [Thread-9] Level 3: Get all included files defined by users
+2024-04-21 15:06:40 DEBUG TestCaseManager:128 - [Thread-9] [Thread-9] initParameterExpectedOuputs
+2024-04-21 15:06:40 DEBUG TestCaseManager:131 - [Thread-9] [Thread-9] initGlobalInputExpOutputMap
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:34 - [Thread-9] [Thread-9] generateGlobalSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:37 - [Thread-9] [Thread-9] generateUUTSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:40 - [Thread-9] [Thread-9] generateStubSubTree
+2024-04-21 15:06:40 DEBUG DataTree:38 - [Thread-9] [Thread-9] Generate Data Tree
+2024-04-21 15:06:40 DEBUG FunctionCallDependencyGeneration:44 - [Thread-9] [Thread-9] Start dependency generation for function call BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:06:40 DEBUG FunctionCallDependencyGeneration:56 - [Thread-9] [Thread-9] /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&) is analyzed function call dependency before
+2024-04-21 15:06:40 DEBUG AbstractInitialTreeGen:140 - [Thread-9] [Thread-9] generateGlobalVarBranch
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:34 - [Thread-9] [Thread-9] generateGlobalSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:37 - [Thread-9] [Thread-9] generateUUTSubTree
+2024-04-21 15:06:40 DEBUG FuncDetailTreeGeneration:40 - [Thread-9] [Thread-9] generateStubSubTree
+2024-04-21 15:06:40 DEBUG RelatedExternalVariableDetecter:75 - [Thread-9] [Thread-9] Found 1 global variables in unit
+2024-04-21 15:06:40 DEBUG RelatedExternalVariableDetecter:83 - [Thread-9] [Thread-9] Found no global variable used in subprogram
+2024-04-21 15:06:40 DEBUG AbstractInitialTreeGen:120 - [Thread-9] [Thread-9] generateStaticBranch
+2024-04-21 15:06:40 DEBUG VariableSearchingSpace:181 - [Thread-9] [Thread-9] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:40 DEBUG VariableSearchingSpace:191 - [Thread-9] [Thread-9] Level 2: Get the source code file
+2024-04-21 15:06:40 DEBUG VariableSearchingSpace:236 - [Thread-9] [Thread-9] Level 3: Get all included files defined by users
+2024-04-21 15:06:41 DEBUG TestCaseTreeTableController:573 - [JavaFX Application Thread] [JavaFX Application Thread] Checking visible for node AKA_INSTANCE___BtaTest with parent GLOBAL
+2024-04-21 15:06:41 DEBUG TestCaseTreeTableController:573 - [JavaFX Application Thread] [JavaFX Application Thread] Checking visible for node AKA_INSTANCE___BtaTest with parent GLOBAL
+2024-04-21 15:06:45 DEBUG ParameterColumnCellFactory:388 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 3
+2024-04-21 15:06:46 DEBUG ParameterColumnCellFactory:402 - [JavaFX Application Thread] [JavaFX Application Thread] Canceled the edit on the cell
+2024-04-21 15:06:50 DEBUG InputColumnCellFactory:80 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 5
+2024-04-21 15:06:50 DEBUG AbstractTableCell:123 - [JavaFX Application Thread] [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.testdata.object.ClassDataNode
+2024-04-21 15:06:50 DEBUG VariableSearchingSpace:181 - [JavaFX Application Thread] [JavaFX Application Thread] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:50 DEBUG VariableSearchingSpace:191 - [JavaFX Application Thread] [JavaFX Application Thread] Level 2: Get the source code file
+2024-04-21 15:06:50 DEBUG VariableSearchingSpace:236 - [JavaFX Application Thread] [JavaFX Application Thread] Level 3: Get all included files defined by users
+2024-04-21 15:06:51 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:06:51 DEBUG InputColumnCellFactory:170 - [JavaFX Application Thread] [JavaFX Application Thread] Refreshed the current test case tab
+2024-04-21 15:06:52 DEBUG InputColumnCellFactory:80 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 6
+2024-04-21 15:06:52 DEBUG AbstractTableCell:123 - [JavaFX Application Thread] [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.testdata.object.StructDataNode
+2024-04-21 15:06:52 DEBUG VariableSearchingSpace:181 - [JavaFX Application Thread] [JavaFX Application Thread] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:52 DEBUG VariableSearchingSpace:191 - [JavaFX Application Thread] [JavaFX Application Thread] Level 2: Get the source code file
+2024-04-21 15:06:52 DEBUG VariableSearchingSpace:236 - [JavaFX Application Thread] [JavaFX Application Thread] Level 3: Get all included files defined by users
+2024-04-21 15:06:53 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:06:53 DEBUG VariableSearchingSpace:181 - [JavaFX Application Thread] [JavaFX Application Thread] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:53 DEBUG VariableSearchingSpace:191 - [JavaFX Application Thread] [JavaFX Application Thread] Level 2: Get the source code file
+2024-04-21 15:06:53 DEBUG VariableSearchingSpace:236 - [JavaFX Application Thread] [JavaFX Application Thread] Level 3: Get all included files defined by users
+2024-04-21 15:06:53 DEBUG InputColumnCellFactory:170 - [JavaFX Application Thread] [JavaFX Application Thread] Refreshed the current test case tab
+2024-04-21 15:06:55 DEBUG InputColumnCellFactory:80 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 5
+2024-04-21 15:06:55 DEBUG AbstractTableCell:123 - [JavaFX Application Thread] [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.testdata.object.ClassDataNode
+2024-04-21 15:06:55 DEBUG VariableSearchingSpace:181 - [JavaFX Application Thread] [JavaFX Application Thread] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:55 DEBUG VariableSearchingSpace:191 - [JavaFX Application Thread] [JavaFX Application Thread] Level 2: Get the source code file
+2024-04-21 15:06:55 DEBUG VariableSearchingSpace:236 - [JavaFX Application Thread] [JavaFX Application Thread] Level 3: Get all included files defined by users
+2024-04-21 15:06:56 DEBUG InputColumnCellFactory:80 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 5
+2024-04-21 15:06:56 DEBUG AbstractTableCell:123 - [JavaFX Application Thread] [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.testdata.object.ClassDataNode
+2024-04-21 15:06:56 DEBUG VariableSearchingSpace:181 - [JavaFX Application Thread] [JavaFX Application Thread] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:56 DEBUG VariableSearchingSpace:191 - [JavaFX Application Thread] [JavaFX Application Thread] Level 2: Get the source code file
+2024-04-21 15:06:56 DEBUG VariableSearchingSpace:236 - [JavaFX Application Thread] [JavaFX Application Thread] Level 3: Get all included files defined by users
+2024-04-21 15:06:57 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:06:57 DEBUG VariableSearchingSpace:181 - [JavaFX Application Thread] [JavaFX Application Thread] Level 1: Get all current class/struct/namespace
+2024-04-21 15:06:57 DEBUG VariableSearchingSpace:191 - [JavaFX Application Thread] [JavaFX Application Thread] Level 2: Get the source code file
+2024-04-21 15:06:57 DEBUG VariableSearchingSpace:236 - [JavaFX Application Thread] [JavaFX Application Thread] Level 3: Get all included files defined by users
+2024-04-21 15:06:57 DEBUG InputColumnCellFactory:170 - [JavaFX Application Thread] [JavaFX Application Thread] Refreshed the current test case tab
+2024-04-21 15:06:58 DEBUG InputColumnCellFactory:80 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 7
+2024-04-21 15:06:58 DEBUG AbstractTableCell:123 - [JavaFX Application Thread] [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.testdata.object.SubStructDataNode
+2024-04-21 15:06:58 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:06:58 DEBUG CTypeDependencyGeneration:48 - [JavaFX Application Thread] [JavaFX Application Thread] Find type dependency for /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/A/list_id
+2024-04-21 15:06:58 DEBUG CTypeDependencyGeneration:49 - [JavaFX Application Thread] [JavaFX Application Thread] Type "int"
+2024-04-21 15:06:58 DEBUG CTypeDependencyGeneration:246 - [JavaFX Application Thread] [JavaFX Application Thread] Perform primitive search with type "int"
+2024-04-21 15:06:58 DEBUG CTypeDependencyGeneration:266 - [JavaFX Application Thread] [JavaFX Application Thread] Is primitive type
+2024-04-21 15:06:58 DEBUG CTypeDependencyGeneration:129 - [JavaFX Application Thread] [JavaFX Application Thread] The definition of variable is primitive type: int
+2024-04-21 15:06:58 DEBUG InputColumnCellFactory:170 - [JavaFX Application Thread] [JavaFX Application Thread] Refreshed the current test case tab
+2024-04-21 15:07:02 DEBUG ParameterColumnCellFactory:388 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 8
+2024-04-21 15:07:03 DEBUG ParameterColumnCellFactory:402 - [JavaFX Application Thread] [JavaFX Application Thread] Canceled the edit on the cell
+2024-04-21 15:07:06 DEBUG TestCasesNavigatorRow:1109 - [JavaFX Application Thread] [JavaFX Application Thread] The function corresponding to the clicked node: /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:06 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:06 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:06 DEBUG TestcaseExecution:371 - [pool-26-thread-1] [pool-26-thread-1] The test path file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_manual_0.tp
+2024-04-21 15:07:06 DEBUG TestcaseExecution:378 - [pool-26-thread-1] [pool-26-thread-1] Executable file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_manual_0.exe
+2024-04-21 15:07:06 DEBUG TestcaseExecution:382 - [pool-26-thread-1] [pool-26-thread-1] Debug executable file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/debug_BtaTest_BtaTest_UtcTe_manual_0.exe
+2024-04-21 15:07:06 DEBUG TestcaseExecution:386 - [pool-26-thread-1] [pool-26-thread-1] Command file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:06 DEBUG TestcaseExecution:390 - [pool-26-thread-1] [pool-26-thread-1] Debug command file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/debugger/commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:06 DEBUG TestcaseExecution:394 - [pool-26-thread-1] [pool-26-thread-1] Breakpoint file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/debugger/breakpoints/BtaTest_BtaTest_UtcTe_manual_0.br.json
+2024-04-21 15:07:06 DEBUG TestcaseExecution:398 - [pool-26-thread-1] [pool-26-thread-1] Path of the test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_manual_0.tp
+2024-04-21 15:07:06 DEBUG TestcaseExecution:407 - [pool-26-thread-1] [pool-26-thread-1] Execute Result Path of the test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/execution-results/BtaTest_BtaTest_UtcTe_manual_0.trc
+2024-04-21 15:07:06 DEBUG TestcaseExecution:411 - [pool-26-thread-1] [pool-26-thread-1] The source code file containing the test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp
+2024-04-21 15:07:06 DEBUG AbstractTestCase:116 - [pool-26-thread-1] [pool-26-thread-1] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:06 DEBUG TestcaseExecution:53 - [pool-26-thread-1] [pool-26-thread-1] Start generating test driver for the test case /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-cases/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:06 DEBUG AbstractTestCase:192 - [pool-26-thread-1] [pool-26-thread-1] Export the compilation of test case to file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:06 DEBUG TestcaseExecution:167 - [pool-26-thread-1] [pool-26-thread-1] Create the command file for test case BtaTest_BtaTest_UtcTe_manual_0 at /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:06 DEBUG TestcaseExecution:286 - [pool-26-thread-1] [pool-26-thread-1] Add test driver to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp done
+2024-04-21 15:07:06 DEBUG TestcaseExecution:73 - [pool-26-thread-1] [pool-26-thread-1] Compiling source code files
+2024-04-21 15:07:06 DEBUG TestcaseExecution:82 - [pool-26-thread-1] [pool-26-thread-1] Compile test driver:
+Executing g++ -c -std=c++14 -w "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp" -o"./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp.out" -DAKA_TC_BTATEST_BTATEST_UTCTE_MANUAL_0 -I"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments"
+2024-04-21 15:07:06 DEBUG TestcaseExecution:109 - [pool-26-thread-1] [pool-26-thread-1] Re compile all akaignore files
+2024-04-21 15:07:06 DEBUG ProjectClone:1031 - [pool-26-thread-1] [pool-26-thread-1] Compilation of /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp: g++ -c -std=c++14 -w "/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp" -o"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp.out" -I"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments" -DAKA_TC_BTATEST_BTATEST_UTCTE_MANUAL_0 -DASSERT_ENABLE
+2024-04-21 15:07:06 DEBUG TestcaseExecution:116 - [pool-26-thread-1] [pool-26-thread-1] Linking test driver: g++ -std=c++14 -w "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp.out" -o"./aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_manual_0.exe"
+2024-04-21 15:07:06 DEBUG TestcaseExecution:118 - [pool-26-thread-1] [pool-26-thread-1] Can not generate executable file /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+Error:DriverGenMessage{compileMessage='./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp: In function ‘void AKA_TEST_BtaTest_BtaTest_UtcTe_manual_0()’:
+./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp:232:266: error: ‘AKA_INSTANCE___BtaTest_StatusRegisterInst’ was not declared in this scope
+  232 | AKA_mark("<<PRE-CALLING>> Test BtaTest_BtaTest_UtcTe_manual_0");AKA_mark("Calling: ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)|ROOT/uu.cpp/GLOBAL/AKA_INSTANCE___BtaTest/AKA_INSTANCE___BtaTest/BtaTest::BtaTest(UtcTe&)");AKA_fCall++;AKA_INSTANCE___BtaTest = new ::BtaTest(AKA_INSTANCE___BtaTest_StatusRegisterInst);
+      |                                                                                                                                                                                                                                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+', linkMessage='/usr/bin/ld: cannot find ./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp.out: No such file or directory
+collect2: error: ld returned 1 exit status
+
+'}
+2024-04-21 15:07:06 DEBUG CoverageManager:82 - [pool-26-thread-1] [pool-26-thread-1] Export coverage of BtaTest_BtaTest_UtcTe_manual_0 to external files
+2024-04-21 15:07:06 DEBUG InstructionComputator:51 - [pool-26-thread-1] [pool-26-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:06 DEBUG InstructionComputator:78 - [pool-26-thread-1] [pool-26-thread-1] Compute done. Save to environment
+2024-04-21 15:07:06 DEBUG InstructionComputator:85 - [pool-26-thread-1] [pool-26-thread-1] Compute done. Save to file
+2024-04-21 15:07:06 DEBUG InstructionComputator:119 - [pool-26-thread-1] [pool-26-thread-1] Save done.
+2024-04-21 15:07:06 DEBUG CoverageManager:82 - [pool-26-thread-1] [pool-26-thread-1] Export coverage of BtaTest_BtaTest_UtcTe_manual_0 to external files
+2024-04-21 15:07:06 DEBUG InstructionComputator:51 - [pool-26-thread-1] [pool-26-thread-1] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:06 DEBUG InstructionComputator:78 - [pool-26-thread-1] [pool-26-thread-1] Compute done. Save to environment
+2024-04-21 15:07:06 DEBUG InstructionComputator:85 - [pool-26-thread-1] [pool-26-thread-1] Compute done. Save to file
+2024-04-21 15:07:06 DEBUG InstructionComputator:119 - [pool-26-thread-1] [pool-26-thread-1] Save done.
+2024-04-21 15:07:06 DEBUG ReportManager:16 - [JavaFX Application Thread] [JavaFX Application Thread] Report path = /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/reports/execution/BtaTest_BtaTest_UtcTe_manual_0.html
+2024-04-21 15:07:29 DEBUG TestCaseTreeTableController:573 - [JavaFX Application Thread] [JavaFX Application Thread] Checking visible for node AKA_INSTANCE___BtaTest with parent GLOBAL
+2024-04-21 15:07:29 DEBUG TestCaseTreeTableController:573 - [JavaFX Application Thread] [JavaFX Application Thread] Checking visible for node AKA_INSTANCE___BtaTest with parent GLOBAL
+2024-04-21 15:07:31 DEBUG InputColumnCellFactory:80 - [JavaFX Application Thread] [JavaFX Application Thread] Start editing on the cell at line 6
+2024-04-21 15:07:31 DEBUG AbstractTableCell:123 - [JavaFX Application Thread] [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.testdata.object.SubClassDataNode
+2024-04-21 15:07:31 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:31 DEBUG InputColumnCellFactory:170 - [JavaFX Application Thread] [JavaFX Application Thread] Refreshed the current test case tab
+2024-04-21 15:07:35 DEBUG TestCasesNavigatorRow:1109 - [JavaFX Application Thread] [JavaFX Application Thread] The function corresponding to the clicked node: /home/thanhyk14/Desktop/aka414/srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:35 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:35 DEBUG AbstractTestCase:116 - [JavaFX Application Thread] [JavaFX Application Thread] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:35 DEBUG TestcaseExecution:371 - [pool-26-thread-2] [pool-26-thread-2] The test path file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_manual_0.tp
+2024-04-21 15:07:35 DEBUG TestcaseExecution:378 - [pool-26-thread-2] [pool-26-thread-2] Executable file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_manual_0.exe
+2024-04-21 15:07:35 DEBUG TestcaseExecution:382 - [pool-26-thread-2] [pool-26-thread-2] Debug executable file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/debug_BtaTest_BtaTest_UtcTe_manual_0.exe
+2024-04-21 15:07:35 DEBUG TestcaseExecution:386 - [pool-26-thread-2] [pool-26-thread-2] Command file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:35 DEBUG TestcaseExecution:390 - [pool-26-thread-2] [pool-26-thread-2] Debug command file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/debugger/commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:35 DEBUG TestcaseExecution:394 - [pool-26-thread-2] [pool-26-thread-2] Breakpoint file of test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/debugger/breakpoints/BtaTest_BtaTest_UtcTe_manual_0.br.json
+2024-04-21 15:07:35 DEBUG TestcaseExecution:398 - [pool-26-thread-2] [pool-26-thread-2] Path of the test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_manual_0.tp
+2024-04-21 15:07:35 DEBUG TestcaseExecution:407 - [pool-26-thread-2] [pool-26-thread-2] Execute Result Path of the test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/execution-results/BtaTest_BtaTest_UtcTe_manual_0.trc
+2024-04-21 15:07:35 DEBUG TestcaseExecution:411 - [pool-26-thread-2] [pool-26-thread-2] The source code file containing the test case BtaTest_BtaTest_UtcTe_manual_0: /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp
+2024-04-21 15:07:35 DEBUG AbstractTestCase:116 - [pool-26-thread-2] [pool-26-thread-2] Deleting all files related to the test case BtaTest_BtaTest_UtcTe_manual_0 before continuing
+2024-04-21 15:07:35 DEBUG TestcaseExecution:53 - [pool-26-thread-2] [pool-26-thread-2] Start generating test driver for the test case /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-cases/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:35 DEBUG AbstractTestCase:192 - [pool-26-thread-2] [pool-26-thread-2] Export the compilation of test case to file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:35 DEBUG TestcaseExecution:167 - [pool-26-thread-2] [pool-26-thread-2] Create the command file for test case BtaTest_BtaTest_UtcTe_manual_0 at /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json
+2024-04-21 15:07:35 DEBUG TestcaseExecution:286 - [pool-26-thread-2] [pool-26-thread-2] Add test driver to /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp done
+2024-04-21 15:07:35 DEBUG TestcaseExecution:73 - [pool-26-thread-2] [pool-26-thread-2] Compiling source code files
+2024-04-21 15:07:35 DEBUG TestcaseExecution:82 - [pool-26-thread-2] [pool-26-thread-2] Compile test driver:
+Executing g++ -c -std=c++14 -w "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp" -o"./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp.out" -DAKA_TC_BTATEST_BTATEST_UTCTE_MANUAL_0 -I"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments"
+2024-04-21 15:07:35 DEBUG TestcaseExecution:109 - [pool-26-thread-2] [pool-26-thread-2] Re compile all akaignore files
+2024-04-21 15:07:36 DEBUG ProjectClone:1031 - [pool-26-thread-2] [pool-26-thread-2] Compilation of /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp: g++ -c -std=c++14 -w "/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp" -o"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp.out" -I"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments" -DAKA_TC_BTATEST_BTATEST_UTCTE_MANUAL_0 -DASSERT_ENABLE
+2024-04-21 15:07:36 DEBUG TestcaseExecution:116 - [pool-26-thread-2] [pool-26-thread-2] Linking test driver: g++ -std=c++14 -w "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp.out" -o"./aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_manual_0.exe"
+2024-04-21 15:07:36 DEBUG TestcaseExecution:78 - [pool-26-thread-2] [pool-26-thread-2] Execute /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_manual_0.exe
+2024-04-21 15:07:36 DEBUG TestcaseExecution:83 - [pool-26-thread-2] [pool-26-thread-2] Execute done
+2024-04-21 15:07:36 DEBUG TestcaseExecution:180 - [pool-26-thread-2] [pool-26-thread-2] Finish. We are getting a execution path from hard disk
+2024-04-21 15:07:36 DEBUG TestcaseExecution:221 - [pool-26-thread-2] [pool-26-thread-2] No need for shortening test path because it is not too long
+2024-04-21 15:07:36 DEBUG TestcaseExecution:288 - [pool-26-thread-2] [pool-26-thread-2] Compute coverage given the test path
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [pool-26-thread-2] [pool-26-thread-2] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [pool-26-thread-2] [pool-26-thread-2] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [pool-26-thread-2] [pool-26-thread-2] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [pool-26-thread-2] [pool-26-thread-2] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [pool-26-thread-2] [pool-26-thread-2] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [pool-26-thread-2] [pool-26-thread-2] Num of visited instructions = 0
+2024-04-21 15:07:36 DEBUG TestcaseExecution:328 - [pool-26-thread-2] [pool-26-thread-2] Done. Offsets of execution test path [length=1] = 50
+2024-04-21 15:07:36 DEBUG TestcaseExecution:267 - [pool-26-thread-2] [pool-26-thread-2] Retrieve the test path file /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_manual_0.tp successfully.
+2024-04-21 15:07:36 DEBUG TestcaseExecution:269 - [pool-26-thread-2] [pool-26-thread-2] Generate test paths for BtaTest_BtaTest_UtcTe_manual_0 sucessfully
+2024-04-21 15:07:36 DEBUG CoverageManager:82 - [pool-26-thread-2] [pool-26-thread-2] Export coverage of BtaTest_BtaTest_UtcTe_manual_0 to external files
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [pool-26-thread-2] [pool-26-thread-2] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [pool-26-thread-2] [pool-26-thread-2] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [pool-26-thread-2] [pool-26-thread-2] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [pool-26-thread-2] [pool-26-thread-2] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [pool-26-thread-2] [pool-26-thread-2] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [pool-26-thread-2] [pool-26-thread-2] Num of visited instructions = 1
+2024-04-21 15:07:36 DEBUG CoverageManager:82 - [pool-26-thread-2] [pool-26-thread-2] Export coverage of BtaTest_BtaTest_UtcTe_manual_0 to external files
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [pool-26-thread-2] [pool-26-thread-2] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [pool-26-thread-2] [pool-26-thread-2] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [pool-26-thread-2] [pool-26-thread-2] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [pool-26-thread-2] [pool-26-thread-2] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [pool-26-thread-2] [pool-26-thread-2] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [pool-26-thread-2] [pool-26-thread-2] Num of visited instructions = 0
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [JavaFX Application Thread] [JavaFX Application Thread] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [JavaFX Application Thread] [JavaFX Application Thread] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [JavaFX Application Thread] [JavaFX Application Thread] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [JavaFX Application Thread] [JavaFX Application Thread] Num of visited instructions = 1
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [JavaFX Application Thread] [JavaFX Application Thread] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [JavaFX Application Thread] [JavaFX Application Thread] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [JavaFX Application Thread] [JavaFX Application Thread] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [JavaFX Application Thread] [JavaFX Application Thread] Num of visited instructions = 0
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [JavaFX Application Thread] [JavaFX Application Thread] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [JavaFX Application Thread] [JavaFX Application Thread] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [JavaFX Application Thread] [JavaFX Application Thread] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [JavaFX Application Thread] [JavaFX Application Thread] Num of visited instructions = 1
+2024-04-21 15:07:36 DEBUG InstructionComputator:51 - [JavaFX Application Thread] [JavaFX Application Thread] Compute the number of statements/branches and saved in file
+2024-04-21 15:07:36 DEBUG InstructionComputator:78 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to environment
+2024-04-21 15:07:36 DEBUG InstructionComputator:85 - [JavaFX Application Thread] [JavaFX Application Thread] Compute done. Save to file
+2024-04-21 15:07:36 DEBUG InstructionComputator:119 - [JavaFX Application Thread] [JavaFX Application Thread] Save done.
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:83 - [JavaFX Application Thread] [JavaFX Application Thread] Analyzing ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+2024-04-21 15:07:36 DEBUG AbstractCoverageComputation:145 - [JavaFX Application Thread] [JavaFX Application Thread] Num of visited instructions = 0
+2024-04-21 15:07:36 DEBUG ReportManager:16 - [JavaFX Application Thread] [JavaFX Application Thread] Report path = /home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/reports/execution/BtaTest_BtaTest_UtcTe_manual_0.html

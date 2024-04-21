@@ -1,0 +1,14 @@
+{
+  "compilationCommands": {
+    "./srrc/uu.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dc++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\"./srrc/uu.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"/home/thanhyk14/Desktop/aka414/aka-working-space/rrrr/instruments/uu.akaignore.cpp.out\""
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dc++14 -w",
+    "outFlag": "-o",
+    "exeFile": "/home/thanhyk14/Desktop/aka414/srrc/program.exe",
+    "binFiles": [
+      "./aka-working-space/rrrr/instruments/uu.akaignore.cpp.out"
+    ]
+  },
+  "executablePath": ""
+}

@@ -1,0 +1,14 @@
+{
+  "compilationCommands": {
+    "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dc++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\"./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp.out\"\u003c\u003cAKA_U00A0\u003e\u003e-DAKA_TC_BTATEST_BTATEST_UTCTE_RANDOM_0"
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dc++14 -w",
+    "outFlag": "-o",
+    "exeFile": "./aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_random_0.exe",
+    "binFiles": [
+      "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_random_0.cpp.out"
+    ]
+  },
+  "executablePath": "./aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_random_0.exe"
+}

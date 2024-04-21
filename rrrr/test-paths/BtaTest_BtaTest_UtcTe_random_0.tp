@@ -1,0 +1,7 @@
+BEGIN OF BTATEST_BTATEST_UTCTE_RANDOM_0
+Calling: /UtcTe()|ROOT/uu.cpp/GLOBAL/AKA_INSTANCE___BtaTest/AKA_INSTANCE___BtaTest/BtaTest::BtaTest(UtcTe&)/StatusRegisterInst/StatusRegisterInst/UtcTe()
+<<PRE-CALLING>> Test BtaTest_BtaTest_UtcTe_random_0
+Calling: ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)|ROOT/uu.cpp/GLOBAL/AKA_INSTANCE___BtaTest/AKA_INSTANCE___BtaTest/BtaTest::BtaTest(UtcTe&)
+Calling: ./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+lis===21###sois===336###eois===356###lif===2###soif===50###eoif===70###ins===true###function===./srrc/uu.cpp/BtaTest::BtaTest(UtcTe&)
+END OF BTATEST_BTATEST_UTCTE_RANDOM_0

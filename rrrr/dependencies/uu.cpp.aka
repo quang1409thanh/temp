@@ -1,0 +1,32 @@
+{
+  "path": "./srrc/uu.cpp",
+  "dependency": [
+    {
+      "start": "./srrc/uu.cpp/BtaTest/getCurrentListId()",
+      "start-type": "FunctionNode",
+      "start-md5": "e28df50f40e352894aefcb09c44c04b3",
+      "end": "./srrc/uu.cpp/BtaTest",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "64a279a516373b5b498045105a01ade3"
+    },
+    {
+      "start": "./srrc/uu.cpp/BtaTest/setCurrentListId(A_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "37cfb57663f2a928c9a58ed7e549bfac",
+      "end": "./srrc/uu.cpp/BtaTest",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "64a279a516373b5b498045105a01ade3"
+    },
+    {
+      "start": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)",
+      "start-type": "ConstructorNode",
+      "start-md5": "7765d083a70709128e369966826fa1d6",
+      "end": "./srrc/uu.cpp/BtaTest",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "64a279a516373b5b498045105a01ade3"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "name": "BtaTest_BtaTest_UtcTe_manual_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "result": "0/0",
+  "path": "./aka-working-space/rrrr/test-cases/BtaTest_BtaTest_UtcTe_manual_0.json",
+  "sourceCode": "./aka-working-space/rrrr/test-drivers/BtaTest_BtaTest_UtcTe_manual_0.cpp",
+  "testPath": "./aka-working-space/rrrr/test-paths/BtaTest_BtaTest_UtcTe_manual_0.tp",
+  "executable": "./aka-working-space/rrrr/exe/BtaTest_BtaTest_UtcTe_manual_0.exe",
+  "commandConfig": "./aka-working-space/rrrr/test-case-commands/BtaTest_BtaTest_UtcTe_manual_0.json",
+  "commandDebug": "./aka-working-space/rrrr/debugger/commands/BtaTest_BtaTest_UtcTe_manual_0.json",
+  "breakPoint": "./aka-working-space/rrrr/debugger/breakpoints/BtaTest_BtaTest_UtcTe_manual_0.br.json",
+  "debugExecutable": "./aka-working-space/rrrr/exe/debug_BtaTest_BtaTest_UtcTe_manual_0.exe",
+  "executionResult": "./aka-working-space/rrrr/execution-results/BtaTest_BtaTest_UtcTe_manual_0.xml",
+  "creationDate": "2024-04-21T15:06:40.965",
+  "executionDate": "2024-04-21T15:07:35.582",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "uu.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": "./srrc/uu.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.RootDataNode",
+            "name": "SBF",
+            "virtual_name": "NON_VALUE",
+            "level": "SBF"
+          },
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___BtaTest",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___BtaTest",
+                "dataType": "::BtaTest",
+                "realType": "::BtaTest",
+                "external": false,
+                "correspondingVar": "./srrc/uu.cpp/BtaTest/AKA_INSTANCE___BtaTest",
+                "correspondingType": "./srrc/uu.cpp/BtaTest",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___BtaTest",
+                    "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___BtaTest",
+                    "dataType": "::BtaTest",
+                    "realType": "::BtaTest",
+                    "external": false,
+                    "correspondingVar": "./srrc/uu.cpp/BtaTest/AKA_INSTANCE___BtaTest",
+                    "correspondingType": "./srrc/uu.cpp/BtaTest",
+                    "rawType": "::BtaTest",
+                    "selectedConstructor": "BtaTest::BtaTest(UtcTe\u0026)",
+                    "variableType": "::BtaTest",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "BtaTest::BtaTest(UtcTe\u0026)",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___BtaTest",
+                        "dataType": "::BtaTest",
+                        "realType": "::BtaTest",
+                        "functionNode": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ClassDataNode",
+                            "name": "StatusRegisterInst",
+                            "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___BtaTest_StatusRegisterInst",
+                            "dataType": "UtcTe\u0026",
+                            "realType": "UtcTe\u0026",
+                            "external": false,
+                            "correspondingVar": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)/StatusRegisterInst",
+                            "correspondingType": "./srrc/uu.cpp/UtcTe"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.StructDataNode",
+                        "name": "list_id",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___BtaTest.list_id",
+                        "dataType": "A_t",
+                        "realType": "A",
+                        "external": false,
+                        "correspondingVar": "./srrc/uu.cpp/BtaTest/list_id",
+                        "correspondingType": "./srrc/uu.cpp/A"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___BtaTest",
+                "virtual_name": "AKA_INSTANCE___BtaTest",
+                "dataType": "::BtaTest",
+                "realType": "::BtaTest",
+                "external": true,
+                "correspondingVar": "./srrc/uu.cpp/BtaTest/AKA_INSTANCE___BtaTest",
+                "correspondingType": "./srrc/uu.cpp/BtaTest",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___BtaTest",
+                    "virtual_name": "AKA_INSTANCE___BtaTest",
+                    "dataType": "::BtaTest",
+                    "realType": "::BtaTest",
+                    "external": false,
+                    "correspondingVar": "./srrc/uu.cpp/BtaTest/AKA_INSTANCE___BtaTest",
+                    "correspondingType": "./srrc/uu.cpp/BtaTest",
+                    "rawType": "::BtaTest",
+                    "selectedConstructor": "BtaTest::BtaTest(UtcTe\u0026)",
+                    "variableType": "::BtaTest",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "BtaTest::BtaTest(UtcTe\u0026)",
+                        "virtual_name": "AKA_INSTANCE___BtaTest",
+                        "dataType": "::BtaTest",
+                        "realType": "::BtaTest",
+                        "functionNode": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ClassDataNode",
+                            "name": "StatusRegisterInst",
+                            "virtual_name": "AKA_INSTANCE___BtaTest_StatusRegisterInst",
+                            "dataType": "UtcTe\u0026",
+                            "realType": "UtcTe\u0026",
+                            "external": false,
+                            "correspondingVar": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)/StatusRegisterInst",
+                            "correspondingType": "./srrc/uu.cpp/UtcTe",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.SubClassDataNode",
+                                "name": "StatusRegisterInst",
+                                "virtual_name": "AKA_INSTANCE___BtaTest_StatusRegisterInst",
+                                "dataType": "::UtcTe",
+                                "realType": "::UtcTe",
+                                "external": false,
+                                "correspondingVar": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)/StatusRegisterInst",
+                                "correspondingType": "./srrc/uu.cpp/UtcTe",
+                                "rawType": "::UtcTe",
+                                "selectedConstructor": "UtcTe()",
+                                "variableType": "::UtcTe",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.ConstructorDataNode",
+                                    "name": "UtcTe()",
+                                    "virtual_name": "AKA_INSTANCE___BtaTest_StatusRegisterInst",
+                                    "dataType": "::UtcTe",
+                                    "realType": "::UtcTe",
+                                    "functionNode": "/UtcTe()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.StructDataNode",
+                        "name": "list_id",
+                        "virtual_name": "AKA_INSTANCE___BtaTest-\u003elist_id",
+                        "dataType": "A_t",
+                        "realType": "A",
+                        "external": false,
+                        "correspondingVar": "./srrc/uu.cpp/BtaTest/list_id",
+                        "correspondingType": "./srrc/uu.cpp/A",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.SubStructDataNode",
+                            "name": "list_id",
+                            "virtual_name": "AKA_INSTANCE___BtaTest-\u003elist_id",
+                            "dataType": "::A",
+                            "realType": "::A",
+                            "external": false,
+                            "correspondingVar": "./srrc/uu.cpp/BtaTest/list_id",
+                            "correspondingType": "./srrc/uu.cpp/A",
+                            "rawType": "::A",
+                            "selectedConstructor": "A()",
+                            "variableType": "::A",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                "name": "A()",
+                                "virtual_name": "AKA_INSTANCE___BtaTest-\u003elist_id",
+                                "dataType": "::A",
+                                "realType": "::A",
+                                "functionNode": "/A()"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "list_id",
+                                "virtual_name": "AKA_INSTANCE___BtaTest-\u003elist_id.list_id",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": "./srrc/uu.cpp/A/list_id",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "BtaTest::BtaTest(UtcTe\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "",
+            "realType": "",
+            "functionNode": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)"
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": "./srrc/uu.cpp/BtaTest::BtaTest(UtcTe\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

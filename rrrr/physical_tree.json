@@ -1,0 +1,12 @@
+{
+  "path": "./srrc",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": "./srrc/uu.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "04/21/2024 08:30:00",
+      "children": []
+    }
+  ]
+}
